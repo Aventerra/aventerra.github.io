@@ -1299,3 +1299,35 @@ select.av-terminal__input {
 .av-terminal__submit--error {
     /* Using the existing background-color and color logic of the submit button */
 }
+/* ═══════════════════════════════════════════════════════════════════════
+   THE COGNITIVE BRIDGE (Phase LV)
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.av-routing-link {
+    color: var(--c-anchor);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer !important;
+}
+
+.av-routing-link:hover {
+    color: var(--c-grid-slate);
+    transition: none;
+}
+
+.av-routing-link .av-routing-arrow {
+    display: inline-block;
+    transition: transform 0ms;
+}
+
+.av-routing-link:hover .av-routing-arrow {
+    transform: translateX(4px);
+    transition: none;
+}
+
