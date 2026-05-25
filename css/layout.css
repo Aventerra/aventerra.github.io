@@ -669,14 +669,14 @@ section {
 .av-section-focused {
     opacity: 1;
     filter: blur(0px);
-    transform: scale(1);
+    transform: scale(1.02);
     pointer-events: auto;
 }
 
 .av-section-suppressed {
     opacity: 0.35;
     filter: blur(4px);
-    transform: scale(0.97);
+    transform: scale(0.95);
     pointer-events: none;
 }
 
